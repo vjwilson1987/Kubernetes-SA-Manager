@@ -1,0 +1,27 @@
+###################################################################################
+#### WARNING!!! Please edit only user input fields. Leave the rest untouched ######
+###################################################################################
+###################################################################################
+############# Accepts user input through this file 'input.txt'#####################
+###################################################################################
+##To create or delete a user, specify user and the cluster environment as follows##
+###################################################################################
+##Example Input:                                                                 ##
+##  K8USER: Tom                                                                  ##
+##  ACTION: CREATE | DELETE | GET | LIST | CHROLE                                ##
+##  ROLE: ADMIN | READONLY                                                       ##
+##  STAGING: YES | NO                                                            ##
+##  PRODUCTION: YES | NO                                                         ##
+##  SLACKID: Your_Slack_Member_ID                                                ##
+###################################################################################
+######################## Namespace is "app" by default ############################
+########## The user input fields starts below. Fill all fields correctly ##########
+###################################################################################
+
+K8USER: monitoring
+ACTION: CHROLE
+ROLE: ADMIN
+STAGING: YES
+PRODUCTION: YES
+SLACKID: U024SCZJXLJ
+

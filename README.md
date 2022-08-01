@@ -2,7 +2,7 @@
 
 ## What is its purpose?.
 
-The script k8user.sh will help you automate the process of creation, deletion and fetching the user config file of both kubernetes staging and production cluster, and finally send it to the user's slack.
+The script k8user.sh will help you automate the process of creation, deletion and fetching the user config file of both kubernetes staging and production cluster, and finally send it to the user's slack. Also, it helps you manage the Role and Rolebindings of Service Accounts.
 
 ## How to use the script?.
 
